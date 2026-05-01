@@ -59,8 +59,10 @@ Avoid:
 
 ## Logo Rules
 
-- Use transparent/no-background logo for product photos, watermarks, cup mockups, and sticker-style placement.
-- Use profile/background logo for identity cards, intros, and brand slides.
+- Use transparent/no-background logo for product photos, watermarks, cup mockups, sticker-style placement, drink visuals, product/feed/promo assets.
+- Use profile/background logo for identity cards, intros, profile-style visuals, and brand slides.
+- For generated SOREA visuals, use the existing logo asset as reference/overlay; do not let the model invent a lookalike logo.
+- If the generated logo differs from the canonical SOREA asset, treat it as a branding miss and regenerate or overlay the canonical logo.
 - Do not cover the product with logo.
 
 ## Caption Voice
@@ -83,8 +85,13 @@ Style: warm, fresh, soft, modern, premium-light UMKM beverage/food brand.
 Colors: sage green, cream, white, peach, soft brown.
 Lighting: bright natural soft light.
 Composition: product hero, minimal layout, appetizing, clean background.
-Include subtle SOREA branding, no clutter, no harsh sales poster look.
+Use the provided canonical SOREA logo reference subtly as product branding/watermark; do not invent or redraw the logo.
+No clutter, no harsh sales poster look, no stray foreign text.
 ```
+
+## Generation Backend Note
+
+For `/ig_generate`, the default visual backend is Leonardo REST v2 `gpt-image-2` with `HIGH` quality and the canonical SOREA logo reference selected by asset type.
 
 ## Safety
 
