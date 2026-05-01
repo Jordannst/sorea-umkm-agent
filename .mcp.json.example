@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "umkm-finance": {
+      "command": "node",
+      "args": ["/abs/path/to/liana-mcp/server.mjs"],
+      "env": {
+        "DASHBOARD_URL": "https://umkm-finance-dashboard.vercel.app",
+        "LIANA_SHARED_SECRET": "<secret>",
+        "BUSINESS_ID": "<uuid>",
+        "OPENCLAW_HOOK_TOKEN": "<secret>"
+      }
+    }
+  }
+}
