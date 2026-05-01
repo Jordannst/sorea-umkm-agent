@@ -91,7 +91,7 @@ No clutter, no harsh sales poster look, no stray foreign text.
 
 ## Generation Backend Note
 
-For `/ig_generate`, the default visual backend is Leonardo REST v2 `gpt-image-2` with `HIGH` quality and the canonical SOREA logo reference selected by asset type.
+For `/ig_generate`, the default visual backend is Leonardo REST v2 `gpt-image-2` with `MEDIUM` quality and the canonical SOREA logo reference selected by asset type.
 
 ## Safety
 

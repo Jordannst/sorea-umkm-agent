@@ -23,7 +23,7 @@ Membuat prompt atau asset visual promosi sesuai brand SOREA.
 Execution defaults:
 
 - image generation backend: Leonardo REST v2 `gpt-image-2`
-- default quality: `HIGH`
+- default quality: `MEDIUM`
 - product/feed/drink/promo visuals must use the canonical transparent SOREA logo as image reference
 - profile/identity visuals use the background/profile logo reference
 - reject/regenerate outputs with invented or mismatched SOREA logos
